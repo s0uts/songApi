@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> {{title}} </title>
+</head>
+
+<body>
+    <h1> {{title}} </h1>
+    <div>
+        {{#each song}}
+            <p> Artist Name: {{this.artistName}} </p>
+            <p> Album (Collection) Name: {{this.collectionName}} </p>
+            <p> Track Name: {{this.trackName}} </p>
+            <img src="{{this.artworkUrl60}}" alt="{{this.artistName}}" style="padding-top:7px;">
+            <br><br>
+            {{/each}}
+    </div>
+</body>
+
+</html>

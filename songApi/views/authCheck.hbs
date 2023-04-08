@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> {{title}} </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1> Welcome to the songAPI website, please enter your credentials or register as a new guest.</h1>
+        Enter UserName: <input type="text" id="user"/><br><br>
+        Enter Password: <input type="text" id="pass"/><br><br>
+        <button id="logIn_button"  style="margin-bottom: 50px;">Log In</button>
+        <button id="register_button"  style="margin-bottom: 50px;">Register</button>
+    </div>
+    <div id="failedAuth"></div>
+    <script src="js/authScript.js"></script>
+</body>
+
+</html>
